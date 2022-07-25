@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    height: 90px;
+    display: grid;
+    justify-content:center ;
+
+}
+
+header div{
+    display: grid;
+    align-items: center;
+    width: 960px;
+    grid-template-columns: 200px repeat(4,auto);
+    grid-gap: 20px;
+
+}
+/* maaaaaaaaaaaain */
+
+main{
+    margin: 50px auto;
+    width: 960px;
+    display: grid;
+    grid-template-columns: repeat(6,auto);
+    grid-template-rows: repeat(3,auto);
+    grid-gap: 30px;
+    
+}
+
+main div:nth-child(1){
+grid-column-end: span 6;
+}
+    
+main div:nth-child(2){
+grid-column-end: span 2;
+}
+
+main div:nth-child(3){
+grid-column-end: span 2 ;
+}
+
+main div:nth-child(4){
+grid-column-end: span 2  ;
+}
+
+main div:nth-child(5){
+grid-column-end: span 3 ;
+}
+
+main div:nth-child(6){
+grid-column-end: span 3 ;
+}
+
+
+
+main div:nth-child(6) p{
+    height: 338px;
+    overflow: scroll;
+    margin-bottom: 10px;
+
+}
+
+main button {
+    height: 30px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    margin-top: 0px;
+}
+
+
+p::-webkit-scrollbar {
+    display: none;
+}
+
+footer {
+    margin-top: 50px;
+    height: 90px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
