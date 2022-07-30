@@ -20,6 +20,16 @@ header div{
     grid-gap: 20px;
 
 }
+header div ul{
+    
+    list-style:none;
+    display: flex;
+    
+}
+header li{
+    margin: 0px 50px;
+}
+
 /* maaaaaaaaaaaain */
 
 main{
@@ -28,7 +38,7 @@ main{
     display: grid;
     grid-template-columns: repeat(6,auto);
     grid-template-rows: repeat(3,auto);
-    grid-gap: 30px;
+    grid-gap: 20px;
     
 }
 
